@@ -1,0 +1,278 @@
+.background_Create{
+    min-height: 100vh;
+    background: url("../tools/ok8.jpg") no-repeat center  ;   
+}
+
+/*Logo,Name and Back*/
+.navbar_Menu{
+    background-color: none;
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+/*Logo*/
+
+.pokelogo{
+    width: 100px;
+}
+
+/*Name App*/
+
+.namePage{
+    color: hsl(0deg 0% 100%);
+    margin: 0 400px 0 23px;
+    line-height: 60px;
+    font-family: 'Pokemon Solid';
+    -webkit-text-stroke: 2px #9f892f;
+    font-size: 3rem;
+}
+/* #ab98b6; */
+
+/*Back*/
+.back{
+    font-size: 2.5rem;
+    font-family: 'VT323', monospace;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    color:#9f892f;
+    border-color: #9f892f;
+    width: 150px;
+    height: 70px;
+    margin: 5px 0 0 410px;
+}
+
+.back:hover {
+    color: aliceblue;
+    transition: 0.5s;
+    background-color: #9f892f;    
+    border:none;
+}
+
+/*Content elements*/
+.content{
+    background-color: transparent;
+    width: 790px;
+    height: 550px;
+    position: absolute;
+    left: 530px;
+    bottom: 20px;
+}
+
+.title {
+    color: #9f892f;
+    font-size: 2.9rem;
+    margin: 0;
+    font-family: 'Pokemon Solid';
+    -webkit-text-stroke: 1px aliceblue ;
+    position: relative;
+    top: -70px;
+    left: 40px;
+}
+
+.boxForm {
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(50deg,rgba(212, 188, 83, 0.782),rgb(190, 159, 193));
+    border-radius: 60px;
+    position: relative;
+    top:-80px;
+}
+
+.nameInput{
+    width: 47%; 
+    height: 80px;
+    background-color: transparent;
+}
+
+.imageInput{
+    width: 47%; 
+    height: 80px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+
+.inputString {
+    width: 95%;
+    height: 3rem;
+    border-radius: 7px;
+    border: none;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem; 
+    left: 20px ;
+    color:rgba(179, 149, 16, 0.782);
+    position: relative;
+    top: 30px;
+}
+
+/*Data Pokemon*/
+
+.containerInputs1{
+    background-color: transparent;
+    width: 45%; 
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+
+.containerInputs2{
+    background-color: transparent;
+    width: 45%; 
+    height: 250px;
+    position: absolute;
+    left: 420px;
+    top: 90px;
+}
+
+.box1{
+    width: 90%; 
+    height: 70px;
+    background-color: transparent;
+    position: absolute;
+    left:20px;
+    top:8px;
+}
+
+.box2{
+    width: 90%; 
+    height: 70px;
+    background-color: transparent;
+    position: absolute;
+    left:20px;
+    top:90px;
+}
+
+.box3{
+    width: 90%; 
+    height: 70px;
+    background-color: transparent;
+    position: absolute;
+    left:20px;
+    top:172px;
+}
+
+.subtitle {
+    width: 100%;
+    height: 70px;
+    color:aliceblue;
+    font-weight: bold;
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    position: absolute;
+    left:20px;
+    top:-15px;
+}
+
+.inputNum {
+    width: 80px;
+    height: 2.7rem;
+    border-radius: 8px;
+    border-color: #9f892f;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem; 
+    padding-left: 50px;
+    color:#9f892f;
+    position: absolute;
+    left: 150px;
+    top:10px;
+}
+
+.nameInput .error{
+    position: absolute;
+    top: 75px;
+}
+.error {
+    color: rgb(131, 22, 22);
+    font-family: 'VT323', monospace;
+    font-size: 0.7rem;
+    position: absolute;
+    background-color: transparent;
+    top: 55px;
+    left: 20px;
+}
+
+/*Type*/
+
+.containerTypes {
+    width: 95%;
+    height: 70px;
+    position: absolute;
+    background-color: transparent;
+    left:20px;
+    bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerTypes p{
+    width: 20%;
+    height: 40px;
+    position: absolute;
+    background-color: transparent;
+    left: 40px;
+}
+
+.subTypes{
+    width: 70%;
+    height: 40px;
+    position: absolute;
+    background-color: transparent;
+    top:18px;
+    left: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.type1{
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    background-color: transparent;
+    left: -50px;
+}
+
+.type2{
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    background-color: transparent;
+    right: 30px;
+}
+
+.inputType{
+    width: 250px;
+    height: 2.7rem;
+    border-radius: 8px;
+    border-color: #9f892f;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem; 
+    padding-left: 50px;
+    color:#9f892f;
+    position: absolute;
+}
+
+.buttonCreate{
+    width: 250px;
+    height: 2.7rem;
+    border-radius: 8px;
+    border-color: #9f892f;
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem; 
+    padding-left: 10px;
+    color:#9f892f;
+    position: absolute;
+    bottom: 15px;
+    left: 270px;
+    background-color: aliceblue;
+}
+
+.buttonCreate:hover{
+    background-color: #9f892f;
+    color:aliceblue;
+}
+
+

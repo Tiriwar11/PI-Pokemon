@@ -1,0 +1,206 @@
+.background_Detail{
+    min-height: 100vh;
+    background: url("../tools/fondo.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/*Logo,Name and Back*/
+.navbar_Menu{
+    background-color: none;
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+
+/*Logo*/
+
+.pokelogo{
+    width: 100px;
+}
+
+/*Name App*/
+
+.namePage{
+    color: hsl(0deg 0% 100%);
+    margin: 0 400px 0 23px;
+    line-height: 60px;
+    font-family: 'Pokemon Solid';
+    -webkit-text-stroke: 2px #75719f;
+    font-size: 3rem;
+}
+/* #ab98b6; */
+
+/*Back*/
+.back{
+    font-size: 2.5rem;
+    font-family: 'VT323', monospace;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px;
+    color:aliceblue;
+    border-color: aliceblue;
+    width: 150px;
+    height: 80px;
+    margin: 5px 0 0 410px;
+}
+
+.back:hover {
+    color: aliceblue;
+    transition: 0.5s;
+    background-color: #ec7590;    
+    border:none;
+}
+
+.card{
+    position: relative;
+    width: 500px; 
+    height: 500px;
+    margin: 40px 0 0 50px;
+}
+
+.card div{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+/* background: linear-gradient(50deg,transparent,rgb(159 163 193)); */
+.card .boxTarget_Front{
+    background: linear-gradient(50deg,transparent,rgb(159 163 193)); 
+    transform: perspective(500px) rotateY(0deg);
+    border-radius: 50px;
+}
+
+/* background: linear-gradient(50deg,transparent,rgb(190, 159, 193)); */
+.card .boxTarget_Back{
+    background: linear-gradient(50deg,transparent,rgb(190, 159, 193)); 
+    transform: perspective(500px) rotateY(180deg);
+    border-radius: 50px;
+}
+
+.card:hover .boxTarget_Front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card:hover .boxTarget_Back{
+    transform: perspective(500px) rotateY(360deg);
+}
+
+
+.boxTarget_Front{       
+ text-align: center;
+}
+
+.titleID{
+    font-size: 40px;
+    font-family: 'Pokemon Solid' ;
+    -webkit-text-stroke: 1px #75719f;
+    margin: 0 0 -50px 0;
+}
+/* .boxTarget_Front h3 p{
+    font-size: 40px;;
+    font-family: 'Pokemon Solid';
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px #000000;
+    /* margin: 0 0 0 30px  */
+
+
+.image{
+    transform: scaleX(-1);
+    width: 350px; 
+    height: 350px;
+    margin: 0 0 -120px 0;
+}
+
+.namePoke1{
+    text-align: center;
+    font-family: 'Pokemon Solid' ;
+    color:aliceblue;
+    -webkit-text-stroke: 1px #ec7590;
+    font-size: 70px;
+}
+
+/*Back Target*/
+/*Data*/
+
+.card .boxTarget_Back .data {
+    display: flex;  
+    height: 280px; 
+}
+
+.card .boxTarget_Back .data .data1{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    left: 15px;
+    top:20px;
+}
+
+.card .boxTarget_Back .data .data1 h3{
+    font-size: 30px;
+}
+
+.card .boxTarget_Back .data .data1 .icons{
+    width: 30px;
+    height: 25px;
+}
+
+.card .boxTarget_Back .data .data2{
+    width: 250px;
+    height: 280px;
+    position: absolute;
+    right: -15px;
+    top:20px;
+}
+.card .boxTarget_Back .data .data2 h3{
+    font-size: 30px;
+}
+
+.card .boxTarget_Back .data .data2 .icons{
+    width: 30px;
+    height: 25px;
+}
+
+.namePoke2{
+    text-align: center;
+    font-family: 'Pokemon Solid' ;
+    color:aliceblue;
+    -webkit-text-stroke: 1px #ec7590;
+    font-size: 70px;
+}
+
+.card .boxTarget_Back .namePoke2{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 90px;
+    bottom: -30px;
+}
+
+
+.card .boxTarget_Back .types{
+    width: 250px;
+    height: 180px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    bottom: 60px;
+    margin: 0 20px 0 20px;
+}
+
+.card .boxTarget_Back .types .titleType{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    position: absolute;
+    left: 60px;
+    bottom: 110px;
+    color: hsl(0deg 0% 100%);
+    font-family: 'Pokemon Solid';
+    -webkit-text-stroke: 1px #75719f;
+}
+

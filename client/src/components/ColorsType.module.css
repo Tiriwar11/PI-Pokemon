@@ -1,0 +1,199 @@
+.fire{
+    color:rgb(249, 249, 249);
+    background: #d56809;
+    width: 70px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.grass{
+    color:rgb(249, 249, 249);
+    background: #037507;
+    width: 80px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.water{
+    color:rgb(249, 249, 249);
+    background: #054eb5;
+    width: 80px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.electric{
+    color:#04429a;
+    background: #e6ed05;
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.flying{
+    color:rgb(249, 249, 249);
+    background: rgb(149, 216, 254);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+.normal{
+    color:rgb(249, 249, 249);
+    background: rgb(223, 172, 110);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.fighting{
+    color:#054eb5;
+    background: rgb(81, 122, 130);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.poison{
+    color:rgb(249, 249, 249);
+    background: rgb(159, 73, 187);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.ground{
+    color:rgb(249, 249, 249);
+    background: rgb(69, 39, 12);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+.rock{
+    color:#054eb5;
+    background: rgb(115, 115, 115);
+    width: 70px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.bug{
+    color:rgb(249, 249, 249);
+    background: rgb(115, 182, 127);
+    width: 70px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.ghost{
+    color:rgb(249, 249, 249);
+    background: rgb(51, 1, 60);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.psychic{
+    color:rgb(249, 249, 249);
+    background: rgb(189, 55, 138);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.steel{
+    color:#054eb5;
+    background: rgb(84, 119, 109);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.ice{
+    color:rgb(249, 249, 249);
+    background: rgb(16, 183, 220);
+    width: 70px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.dragon{
+    color:rgb(249, 249, 249);
+    background: rgb(89, 106, 5);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.dark{
+    color:rgb(249, 249, 249);
+    background: rgb(0, 0, 0);
+    width: 80px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.fairy{
+    color:rgb(249, 249, 249);
+    background: rgb(255, 8, 169);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.shadow{
+    color:rgb(249, 249, 249);
+    background: rgb(55, 38, 72);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.unknown{
+    color:rgb(4, 4, 4);
+    background: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+

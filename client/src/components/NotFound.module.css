@@ -1,0 +1,25 @@
+.title {
+    font-size: 3rem;
+    font-family: 'Pokemon Solid';
+    color: aliceblue;
+    position:absolute;
+    bottom: -10px;
+    left: 150px;
+    -webkit-text-stroke: 2px rgba(0, 4, 255, 0.54);
+}
+.notFound {
+    width: 800px;
+    height: 480px;
+    position: relative;
+    background: transparent;
+    left: 280px;
+}
+.notFoundImage {
+    width: 70%;
+    height: 60%;
+    border-radius: 8px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.39);
+    position: absolute;
+    bottom: 140px;
+    left: 100px;
+}

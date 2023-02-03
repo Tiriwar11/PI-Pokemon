@@ -1,0 +1,27 @@
+/*Fondo*/
+.background {
+    width: 100%;
+    min-height: 100vh;
+    background: url("../tools/background.gif");
+    background-size: cover;
+}
+
+.button {
+    border-radius: 25px;
+    border:none;
+    background-color: #f48507;
+    width: 280px;
+    height: 150px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Fredoka One', cursive; 
+    font-size: 7rem;
+    position: relative;
+    top:370px;
+    left: 21%;
+}
+.button:hover {
+    color: #f48507 ;
+    transition: 0.5s;
+    background-color: aliceblue;
+}

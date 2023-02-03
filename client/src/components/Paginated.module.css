@@ -1,0 +1,53 @@
+.paginated {
+    display: flex;
+    justify-content: center;
+    margin: 40px 140px -40px 0;
+    padding-bottom: 30px;
+}
+
+#btn{
+  position: relative;
+  height: -50px;
+  width: -50px;
+  margin: 10px 100px 60px 40px;
+  background-color: transparent;
+  border: none;
+}
+
+.text{
+    width: 200px;
+    position: absolute;
+    color: aliceblue;
+    left: -65px;
+}
+.poke1{
+    height: 58px;
+    width: 68px;
+}
+.poke2{
+    height: 70px;
+    width: 70px;
+}
+#btn img{
+  position: absolute;
+  left: 0;
+}
+
+/* img.poke2:active{
+    opacity: 0; 
+} */
+
+#btn img.poke2:hover{
+    opacity: 0; 
+}
+
+
+/* .btnActive:active img.poke2 {
+    visibility: hidden;
+} */
+/* .btnActive img.poke2:active{
+    visibility: hidden;
+} */
+/* .btnActive img.poke2:hover{
+    visibility: hidden;
+} */
